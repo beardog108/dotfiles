@@ -8,4 +8,4 @@ set nu
 set autoindent
 set ignorecase
 set mouse=a
-
+filetype indent plugin on
