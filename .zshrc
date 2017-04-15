@@ -100,5 +100,7 @@ alias stopi2p='~/i2p/i2prouter stop'
 alias untargz='tar -xzvf $1'
 alias weather='curl "http://wttr.in/stl?u"'
 alias randomshit="cat /dev/urandom | strings | tr -d '\n' | tr -d ' ' | tr -d '\t'"
+#alias conky='nohup conky & disown && sleep 1 && rm nohup.out'
 GOPATH=$HOME/go
 export GOPATH
+#byobu
