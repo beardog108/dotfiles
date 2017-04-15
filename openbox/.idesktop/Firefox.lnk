@@ -1,0 +1,8 @@
+table Icon
+  Caption: Firefox
+  Icon: /usr/share/idesk/icons/32x32/firefox.png
+  X: 1241
+  Y: 39
+  Command[0]: firefox &
+  Command[1]: idesktool Firefox.lnk
+end

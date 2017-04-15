@@ -1,0 +1,9 @@
+table Icon
+  Caption: pyrite
+  Icon: /usr/share/idesk/icons/32x32/penguin.png
+  X: 1241
+  Y: 129
+  Command[0]: ~/pyrite/pyrite.py
+  Command[1]: idesktool pyrite.lnk
+end
+

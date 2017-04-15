@@ -87,20 +87,18 @@ transfer() { if [ $# -eq 0 ]; then echo "No arguments specified. Usage:\necho tr
 tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | sed -e 's/[^a-zA-Z0-9._-]/-/g'); curl --progress-bar --upload-file "$1" "https://transfer.sh/$basefile" >> $tmpfile; else curl --progress-bar --upload-file "-" "https://transfer.sh/$1" >> $tmpfile ; fi; cat $tmpfile; rm -f $tmpfile; }
 
 #byobu
-_byobu_sourced=1 . /usr/bin/byobu-launch
-
+_byobu_sourced=1 . /usr/bin/byobu-launch > /dev/null
 
 # Aliases
 
 alias whatip='curl https://icanhazip.com/'
-alias restart-vpn='/home/beardog/programming/vpn-switch/main.py'
+alias restart-vpn='cd /etc/openvpn && sudo openvpn IVPN-Singlehop-Canada-Toronto.conf'
 alias cls='clear'
-alias toxic='cd ~/toxic && ./run_toxic.sh'
+#alias toxic='cd ~/toxic && ./run_toxic.sh'
 alias starti2p='~/i2p/i2prouter start'
 alias stopi2p='~/i2p/i2prouter stop'
 alias untargz='tar -xzvf $1'
 alias weather='curl "http://wttr.in/stl?u"'
 alias randomshit="cat /dev/urandom | strings | tr -d '\n' | tr -d ' ' | tr -d '\t'"
-alias conky='nohup conky & disown && rm nohup.out'
 GOPATH=$HOME/go
 export GOPATH

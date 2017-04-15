@@ -1,0 +1,9 @@
+table Icon
+  Caption: Signal
+  Icon: /home/beardog/icon-workaround/chrome-bikioccmkafdpakkkcpdbppfkghcmihk-Default.png
+  X: 1241
+  Y: 299
+  Command[0]: /usr/bin/chromium --profile-directory=Default --app-id=bikioccmkafdpakkkcpdbppfkghcmihk
+  Command[1]: 
+end
+

@@ -1,0 +1,8 @@
+table Icon
+  Caption: pcmanfm
+  Icon: /usr/share/icons/Adwaita/32x32/apps/system-file-manager.png
+  X: 1241
+  Y: 479
+  Command[0]: pcmanfm --no-desktop
+  Command[1]: idesktool pcmanfm.lnk
+end

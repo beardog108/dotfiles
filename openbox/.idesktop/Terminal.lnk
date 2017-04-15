@@ -1,0 +1,9 @@
+table Icon
+  Caption: Terminal
+  Icon: /usr/share/idesk/icons/32x32/gnome-terminal.png
+  X: 1241
+  Y: 379
+  Command[0]: gnome-terminal
+  Command[1]: idesktool Terminal.lnk
+end
+

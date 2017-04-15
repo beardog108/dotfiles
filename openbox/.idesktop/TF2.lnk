@@ -1,0 +1,9 @@
+table Icon
+  Caption: TF2
+  Icon: /home/beardog/icon-workaround/steam_icon_440.png
+  X: 1241
+  Y: 219
+  Command[0]: steam steam://run/440
+  Command[1]: idesktool TF2.lnk
+end
+
