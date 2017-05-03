@@ -1,0 +1,36 @@
+#
+# /etc/hosts: static lookup table for host names
+#
+
+#<ip-address>	<hostname.domain.org>	<hostname>
+127.0.0.1	localhost.localdomain	localhost
+::1		localhost.localdomain	localhost
+0.0.0.0       hashflare.io
+0.0.0.0       bitgrabber.online
+0.0.0.0       biksbit.net
+0.0.0.0       google-analytics.com
+0.0.0.0       bitcoingenerator.com.ru
+0.0.0.0       btcpop.co
+0.0.0.0       googleadservices.com
+0.0.0.0       googleanaltics.com
+0.0.0.0       googletagmanager.com
+0.0.0.0       doubleclick.com
+0.0.0.0       coinad.com
+0.0.0.0       bitwise.biz
+0.0.0.0       www.facebook.com
+0.0.0.0       facebook.com
+0.0.0.0       login.facebook.com
+0.0.0.0       www.login.facebook.com
+0.0.0.0       fbcdn.net
+0.0.0.0       www.fbcdn.net
+0.0.0.0       fbcdn.com
+0.0.0.0       www.fbcdn.com
+0.0.0.0       static.ak.fbcdn.net
+0.0.0.0       static.ak.connect.facebook.com
+0.0.0.0       connect.facebook.net
+0.0.0.0       www.connect.facebook.net
+0.0.0.0       apps.facebook.com
+
+
+
+# End of file
