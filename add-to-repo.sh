@@ -8,4 +8,5 @@ cp ~/.pypanelrc .
 cp ~/.gitconfig .
 cp ~/.conkyrc .
 cp -r ~/.config/openbox ./openbox
+cp /etc/hosts ./hosts
 echo 'Added configs to repo'

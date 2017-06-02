@@ -11,6 +11,6 @@
 #xfce-mcs-manager &
 bgs ~/.config/openbox/wallpaper.png
 sleep 5 && conky &
-xrootconsole --wrap --topdown -geometry 100x500+2+600 ~/.zsh_history &
-pypanel &
+#xrootconsole --wrap --topdown -geometry 100x300+2+600 ~/.zsh_history &
+sleep 3 && pypanel &
 idesk

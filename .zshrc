@@ -92,7 +92,7 @@ _byobu_sourced=1 . /usr/bin/byobu-launch > /dev/null
 # Aliases
 
 alias whatip='curl https://icanhazip.com/'
-alias restart-vpn='cd /etc/openvpn && sudo openvpn IVPN-Singlehop-Canada-Toronto.conf'
+alias restart-vpn='cd /etc/openvpn && sudo openvpn IVPN-Singlehop-Canada-Toronto.conf && cd ~/'
 alias cls='clear'
 #alias toxic='cd ~/toxic && ./run_toxic.sh'
 alias starti2p='~/i2p/i2prouter start'
@@ -100,6 +100,8 @@ alias stopi2p='~/i2p/i2prouter stop'
 alias untargz='tar -xzvf $1'
 alias weather='curl "http://wttr.in/stl?u"'
 alias randomshit="cat /dev/urandom | strings | tr -d '\n' | tr -d ' ' | tr -d '\t'"
+alias starttor="sudo systemctl start tor"
+alias stoptor="sudo systemctl stop tor"
 #alias conky='nohup conky & disown && sleep 1 && rm nohup.out'
 GOPATH=$HOME/go
 export GOPATH

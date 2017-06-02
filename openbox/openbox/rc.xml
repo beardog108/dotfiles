@@ -166,19 +166,18 @@
     <autoHide>no</autoHide>
     <hideDelay>5</hideDelay>
     <!-- in milliseconds (1000 = 1 second) -->
-    <showDelay>5</showDelay>
+    <showDelay>0</showDelay>
     <!-- in milliseconds (1000 = 1 second) -->
     <moveButton>Middle</moveButton>
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
-      <chainQuitKey>C-g</chainQuitKey>
+    <chainQuitKey>C-g</chainQuitKey>
     <keybind key="Print">
-            <action name="Execute">
-                <command>scrot</command>
-            </action>
+      <action name="Execute">
+        <command>scrot</command>
+      </action>
     </keybind>
-
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
@@ -687,9 +686,9 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-<application name="tilda">
-    <layer>below</layer>
-</application>
+    <application name="tilda">
+      <layer>below</layer>
+    </application>
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
